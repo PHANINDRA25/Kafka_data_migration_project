@@ -17,7 +17,7 @@ s3=S3FileSystem()
 topic = 'topic_22'  # replace with your topic name
 consumer.subscribe([topic])
 # count=0
-
+#djhd
 import ast  # Import Abstract Syntax Tree module
 
 while True:
