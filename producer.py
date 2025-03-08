@@ -19,5 +19,6 @@ while True:
     dict_stock=df.sample(1).to_dict(orient='records')[0]
     producer.produce('topic_22',value=str(dict_stock))
     sleep(1)
+    #hdid
 
 producer.flush()
